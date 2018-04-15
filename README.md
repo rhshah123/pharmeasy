@@ -25,7 +25,7 @@
 #### Creating tables and Seeding Data 
 
 - Run following command from the root directory of the project :
-- 'php artisan migrate:refresh --seed'
+- ```php artisan migrate:refresh --seed```
 - This will create all the tables and initial data
 - Now you will have following Roles and users available 
 
@@ -38,7 +38,7 @@
 | User | Role | Email | Password |
 | ------------- | ----------| ---------- | --------- |
 | Raju | patient | raju@example.com | secret |
-| Dr. Shrikant | doctor | shawan@example.com | secret |
+| Dr. Shrikant | doctor | shrikant@example.com | secret |
 | Shawan | pharmacist | shawan@example.com | secret |
 
 #### Login Details
