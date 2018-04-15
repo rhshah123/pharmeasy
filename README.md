@@ -9,6 +9,12 @@
 
 ## Installation
 
+#### Local Server
+
+- Start you local lamp server using any client XAMPP, WAMP or MAMP
+- Recommended is WAMP.
+- Make sure above requirements are taken care of by your client.
+
 #### Code
 
 - Run following command 
@@ -18,9 +24,9 @@
 
 #### Database
 
-- create database 'pharmeasy'
-- make user 'pharmeasy' with password 'pharmeasy'
-- give global privelges to this user on the above db.
+- Create database 'pharmeasy'
+- Make user 'pharmeasy' with password 'pharmeasy'
+- Give global privelges to this user on the above db.
 
 #### Creating tables and Seeding Data 
 
