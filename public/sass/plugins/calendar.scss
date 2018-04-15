@@ -1,0 +1,55 @@
+.fc{
+	.fc-toolbar{
+		margin-top: 10px;
+
+		h2{
+			white-space: nowrap;
+			font-size: 20px;
+			font-weight: 300;
+			display: inline-block;
+			line-height: 30px;
+			vertical-align: top;
+			margin: 0 10px;
+		}
+
+		.fc-state-default{
+			background: none;
+			border: 0;
+			box-shadow: none;
+			border-radius: 0 !important;
+			text-shadow: none;
+
+			&:active, &:focus{
+				outline: 0;
+			}
+		}
+
+		.fc-state-active{
+			background: $blue;
+			color: #fff;
+		}
+
+		.fc-state-hover{
+			background: #ddd;
+		}
+
+		.fc-next-button{
+			display: inline-block;
+		}
+		.fc-prev-button{
+			display: inline-block;
+		}
+
+		.fc-center{
+			&:first-child{
+				@include pie-clearfix;
+			}
+		}
+	}
+}
+
+.fc-event{
+	border: 0;
+	background-color: $blue;
+	border-radius: 0;
+}
