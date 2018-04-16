@@ -14,6 +14,7 @@
 - Start you local lamp server using any client XAMPP, WAMP or MAMP
 - Recommended is WAMP.
 - Make sure above requirements are taken care of by your client.
+- start your local server, make sure php, apache and mysql are working.
 
 #### Code
 
