@@ -34,7 +34,7 @@
 #### Creating tables and Seeding Data 
 
 - Run following command from the root directory of the project :
-- ```php artisan migrate:refresh --seed```
+- ```php artisan migrate --seed```
 - This will create all the tables and initial data
 - Now you will have following Roles and users available 
 
