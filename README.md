@@ -19,7 +19,9 @@
 
 - Run following command 
 - ```git clone https://github.com/rhshah123/pharmeasy.git```
-- After succesfully downloading the repo, go to the root directory and run following command
+- After succesfully downloading the repo, go to the root directory  
+- copy .env.example as .env
+- and then run following command
 - ``` composer update ```
 
 #### Database
